@@ -563,6 +563,8 @@ nav span {
     }
     input:checked ~ ul {
         max-height: 500px;
+        z-index: 20;
+        background-color: #ffffff;
     }
     .hamburger {
         display: block;
@@ -577,6 +579,9 @@ nav span {
     #sign-in {
         padding-top: 12px;
         height: 88px;
+    }
+    #search {
+        z-index: 10;
     }
 
 }
